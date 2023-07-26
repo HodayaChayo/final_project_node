@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>טפסים</title>
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/forms.css" />
+    <script defer src="./forms.js"></script>
+  </head>
+  <body>
+    <header class="navBar">
+      <ul>
+        <li><a href="../home/home.html">דף הבית</a></li>
+        <li><a href="../forms/forms.html">טפסים</a></li>
+      </ul>
+    </header>
+    <main>
+      <h1>טפסים</h1>
+      <div class="container">
+        <form method="POST" class="form" id="sksForm">
+          <input
+            class="input"
+            type="number"
+            name="customerNumber"
+            placeholder="מס' לקוח"
+          />
+          <input class="input" type="text" name="name" placeholder="שם" />
+          <input class="input" type="email" name="email" placeholder="מייל" />
+          <input
+            class="input"
+            type="number"
+            name="cusId"
+            placeholder="מספר עוסק"
+          />
+          <input
+            class="input"
+            type="number"
+            name="phone"
+            placeholder="מספר טלפון"
+          />
+          <button type="submit" id="BtnAdd">הוספה</button>
+        </form>
+        <div class="title">
+          <p>מס' לקוח</p>
+          <p>שם</p>
+          <p>מייל</p>
+          <p>מספר עוסק</p>
+          <p>מספר טלפון</p>
+        </div>
+      </div>
+    </main>
+    <footer>עזרא והודיה חיו &copy;</footer>
+  </body>
+</html>
